@@ -13,7 +13,7 @@ class homeController extends Controller
         $this->getMessages();
 
         $this->_view->assign('title','Home');
-        $this->_view->assign('asunto','Home');
+        $this->_view->assign('subject','Pagina de Inicio');
         $this->_view->render('index');
     }
 }
